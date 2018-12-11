@@ -28,8 +28,8 @@ class PlgSystemWf_Highlight extends JPlugin
 		
 		$document = JFactory::getDocument();
 		
-    		$document->addScriptVersion(JURI::base(true) . '/plugins/system/wf_highlight/js/highlight.pack.js');
-    		$document->addStylesheetVersion(JURI::base(true) . '/plugins/system/wf_highlight/css/default.css');
+    		$document->addScriptVersion('//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js');
+    		$document->addStylesheet('//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/default.min.css');
     
 		$document->addScriptDeclaration('hljs.initHighlightingOnLoad();');
 	}
