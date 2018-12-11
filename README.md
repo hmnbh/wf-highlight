@@ -2,7 +2,7 @@
 A Joomla plugin for the highlightjs library
 
 ## Download
-Click [here to download](https://github.com/widgetfactory/wf_highlight/archive/master.zip), or the Download Zip button on the right.
+Click the Clone or Download button on the right.
 
 ## Installation
 Install using the Joomla Extensions Installer
