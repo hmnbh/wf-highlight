@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>plg_system_wf_highlight</name>
+	<author>Widget Factory</author>
+	<creationDate>December 2018</creationDate>
+	<copyright>Copyright (C) 2018 Ryan Demmer. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<authorEmail>info@joomlacontenteditor.net</authorEmail>
+	<authorUrl>www.joomlacontenteditor.net</authorUrl>
+	<version>1.0.0</version>
+	<description>A Joomla plugin for the Highlightjs library</description>
+	<files folder="plugins/system/wf_highlight">
+		<filename plugin="wf_highlight">wf_highlight.php</filename>
+		<folder>css</folder>
+    <folder>js</folder>
+	</files>
+	<languages folder="administrator/language/en-GB">
+		<language tag="en-GB">en-GB.plg_system_wf_highlight.ini</language>
+		<language tag="en-GB">en-GB.plg_system_wf_highlight.sys.ini</language>
+	</languages>
+	<config></config>
+</extension>
